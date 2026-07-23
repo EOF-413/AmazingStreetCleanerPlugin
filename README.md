@@ -1,0 +1,1 @@
+[![Терминал статистики GitHub](https://github-stats-terminal-style-five.vercel.app/api/stats?username=EOF-413%2FAmazingStreetCleanerPlugin&theme=hacker&headerStyle=mac&typingSpeed=100&hostname=github.com&commands=languages%2Cneofetch%2Cgit-log%2Cexit&sourceType=repo&target=EOF-413%2FAmazingStreetCleanerPlugin)](https://github.com/EOF-413/AmazingStreetCleanerPlugin)
