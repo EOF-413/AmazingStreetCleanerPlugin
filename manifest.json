@@ -1,0 +1,14 @@
+{
+    "APP": ["bots", "ASC"],
+    "APP_NAME": ["Amazing", "Street", "Cleaner"],
+    "APP_VERSION": {
+        "VER": "1.0.0",
+        "DAT": "24.07.2026",
+        "DEV": "EOF-413"
+    },
+    "APP_GITHUB_LINK": {
+        "GIT": "https://github.com",
+        "DEV": "EOF-413",
+        "REP": "AmazingStreetCleaner"
+    }
+}
