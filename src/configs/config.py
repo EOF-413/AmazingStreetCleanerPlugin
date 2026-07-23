@@ -2,13 +2,20 @@ import os
 import json
 
 
+def get_appdata():
+    appdata = os.environ.get('APPDATA')
+    if appdata:
+        return appdata
+    userprofile = os.environ.get('USERPROFILE')
+    if userprofile:
+        return os.path.join(userprofile, 'AppData', 'Roaming')
+    return os.path.expanduser('~')
+
+
 def get_config_path():
-    app_data = os.getenv('APPDATA')
-    if app_data is None:
-        app_data = os.path.expanduser('~')
+    app_data = get_appdata()
     config_dir = os.path.join(app_data, 'EOF413', 'AMT', 'plugins', 'bots', 'ASC')
-    if not os.path.exists(config_dir):
-        os.makedirs(config_dir)
+    os.makedirs(config_dir, exist_ok=True)
     return os.path.join(config_dir, 'config.json')
 
 
