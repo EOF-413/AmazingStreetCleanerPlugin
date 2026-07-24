@@ -1,7 +1,7 @@
 {
     "APP": ["bots", "ASC"],
     "APP_NAME": ["Amazing", "Street", "Cleaner"],
-    "DISCRIPTION": "Автоматический уборщик улиц для AMAZING ONLINE.",
+    "DESCRIPTION": "Автоматический уборщик улиц для AMAZING ONLINE.",
     "APP_VERSION": {
         "VER": "1.0.0",
         "DAT": "24.07.2026",
