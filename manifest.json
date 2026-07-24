@@ -3,7 +3,7 @@
     "APP_NAME": ["Amazing", "Street", "Cleaner"],
     "DESCRIPTION": "Автоматический уборщик улиц для AMAZING ONLINE.",
     "APP_VERSION": {
-        "VER": "1.0.0",
+        "VER": "1.1.0",
         "DAT": "24.07.2026",
         "DEV": "EOF-413"
     },
